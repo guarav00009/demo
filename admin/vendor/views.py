@@ -8,4 +8,4 @@ def index(request):
 def vendor_register(request):
     if request.method == 'POST':
         # save code to be written here
-    return HttpResponse('Form Submit')
+        return HttpResponse('Form Submit')
